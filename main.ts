@@ -1,4 +1,5 @@
 radio.onReceivedNumber(function (receivedNumber) {
+    basic.pause(1500)
     if (receivedNumber * a == 4 || (receivedNumber * a == 9 || (receivedNumber * a == 25 || (receivedNumber * a == 8 || (receivedNumber * a == 27 || (receivedNumber * a == 125 || receivedNumber * a == 30)))))) {
         basic.showIcon(IconNames.Asleep)
     } else if (a == 2) {
