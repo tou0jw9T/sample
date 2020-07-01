@@ -3,19 +3,19 @@ radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber * a == 4 || (receivedNumber * a == 9 || (receivedNumber * a == 25 || (receivedNumber * a == 8 || (receivedNumber * a == 27 || (receivedNumber * a == 125 || receivedNumber * a == 30)))))) {
         basic.showIcon(IconNames.Asleep)
     } else if (a == 2) {
-        if (receivedNumber * a == 6 || (receivedNumber * a == 12 || receivedNumber * a == 18)) {
+        if (receivedNumber == 3 || (receivedNumber == 6 || receivedNumber == 9)) {
             basic.showIcon(IconNames.Happy)
         } else {
             basic.showIcon(IconNames.Angry)
         }
     } else if (a == 3) {
-        if (receivedNumber * a == 15 || (receivedNumber * a == 45 || receivedNumber * a == 75)) {
+        if (receivedNumber == 5 || (receivedNumber == 15 || receivedNumber == 25)) {
             basic.showIcon(IconNames.Happy)
         } else {
             basic.showIcon(IconNames.Angry)
         }
     } else if (a == 5) {
-        if (receivedNumber * a == 10 || (receivedNumber * a == 20 || receivedNumber * a == 50)) {
+        if (receivedNumber == 2 || (receivedNumber == 4 || receivedNumber == 10)) {
             basic.showIcon(IconNames.Happy)
         } else {
             basic.showIcon(IconNames.Angry)
